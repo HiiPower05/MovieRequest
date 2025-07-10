@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Giving footer and header the same color */
+header, footer {
+    background-color: #222;
+}
+
+/* Below is the header and everything inside it this includes
+nav a */
+header {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff6347;
+}
+/* Below is image centering, background-color, etc*/
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+.center-text h1 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+.center-text p {
+    font-size: 1.2rem;
+    color: #555;
+}
+.image {
+    width: auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+
+
+
+/* this is the footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
