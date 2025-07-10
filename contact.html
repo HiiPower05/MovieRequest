@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collection Contact</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
     <header>
@@ -15,7 +16,14 @@
     </nav>
     </header>
     <h2>
-        If you need to contact me 
+        Contact
     </h2>
+    <div></div>
+    <form action="/submit" method="Post">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required>
+
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
