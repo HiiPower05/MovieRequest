@@ -1,0 +1,10 @@
+.basic-container {
+    margin: 50px;
+    border-style: 1px;
+    border-color: black;
+    border: solid;
+}
+
+body {
+    background-color: burlywood;
+}
