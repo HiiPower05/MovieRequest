@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #f4f4f4;
+}
 /* Giving footer and header the same color */
 header, footer {
     background-color: #222;
@@ -28,27 +31,31 @@ nav a:hover {
 }
 /* Below is image centering, background-color, etc*/
 .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 20px;
-}
-.center-text h1 {
-    font-size: 2rem;
-    color: #222;
-    margin-bottom: 10px;
-}
-.center-text p {
-    font-size: 1.2rem;
-    color: #555;
-}
-.image {
-    width: auto;
     max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+.center-text h1, .center-text p {
+    margin: 0.5rem 0;
+}
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    transform: translate(-50%, -50%);
+    padding: 0 1rem;
+}
+.image-wrapper {
+    position: relative;
     text-align: center;
 }
-
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 
